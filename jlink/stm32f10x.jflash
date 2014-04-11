@@ -17,11 +17,11 @@
   TAP_Number = 0
   UseAdaptive0 = 0
   UseAdaptive1 = 0
-  UseMaxSpeed0 = 0
+  UseMaxSpeed0 = 1
   UseMaxSpeed1 = 1
 [CPU]
   CheckCoreID = 1
-  ChipName = "ST STM32F103T8"
+  ChipName = "ST STM32F103T8 (allow opt. bytes)"
   ClockSpeed = 0x00000000
   Core = 0x030000FF
   CoreID = 0x3BA00477
@@ -38,15 +38,15 @@
   UseAutoSpeed = 0x00000000
   UseRAM = 1
 [FLASH]
-  aSectorSel[64] = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+  aSectorSel[65] = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
   AutoDetect = 0
   BankName = ""
   BankSelMode = 1
   BaseAddr = 0x08000000
   CheckId = 0
   CustomRAMCode = ""
-  DeviceName = "STM32F10xx8 internal"
-  EndBank = 63
+  DeviceName = "STM32F10xx8 internal optbytes"
+  EndBank = 64
   NumBanks = 1
   OrgNumBits = 32
   OrgNumChips = 1
