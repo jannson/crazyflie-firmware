@@ -6,3 +6,16 @@ z.*
 *.map
 *.hex
 config.mk
+*.__i
+
+bin/cflie.build_log.htm
+bin/cflie.lnp
+bin/cflie.plg
+bin/crazyflie.build_log.htm
+bin/crazyflie.plg
+bin/startup_stm32f10x_md._ia
+crazyflie.plg
+crazyflie.uvgui.gan
+crazyflie.uvgui_gan.bak
+crazyflie_Target 1.dep
+crazyflie_cflie.dep
