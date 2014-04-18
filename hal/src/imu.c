@@ -253,6 +253,7 @@ bool imu6Test(void)
   return testStatus;
 }
 
+
 void imu6Read(Axis3f* gyroOut, Axis3f* accOut)
 {
   mpu6050GetMotion6(&accelMpu.x, &accelMpu.y, &accelMpu.z, &gyroMpu.x, &gyroMpu.y, &gyroMpu.z);

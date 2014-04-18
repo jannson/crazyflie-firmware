@@ -21,3 +21,6 @@ crazyflie.uvgui_gan.bak
 crazyflie_Target 1.dep
 crazyflie_cflie.dep
 crazyflie.uvproj.tmp
+
+cscope.*
+tags
